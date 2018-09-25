@@ -1,0 +1,140 @@
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+  font: 14px "微软雅黑";
+}
+a {
+  text-decoration: none;
+  display: block;
+  color: #898989;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+li {
+  list-style: none;
+}
+img {
+  display: block;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container {
+  margin: 0 auto;
+}
+input {
+  border: 0;
+  outline: none;
+}
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+#wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#wrap #header {
+  width: 16rem;
+  height: 110px;
+}
+#wrap #header .up {
+  width: 16rem;
+  height: 50px;
+  padding-top: 16px;
+  background-color: #fff;
+}
+#wrap #header .up .left {
+  float: left;
+}
+#wrap #header .up .middle {
+  float: right;
+  width: 8rem;
+  height: 32px;
+  background-color: #e9e9e9;
+  border-radius: 5px;
+}
+#wrap #header .up .middle input[type='text'] {
+  float: left;
+  width: 80%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  padding-left: 10px;
+}
+#wrap #header .up .middle .submit {
+  width: 20%;
+  height: 100%;
+  float: left;
+  background-image: url(../image/search2.png);
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: 60%;
+  background-position: center;
+}
+#wrap #header .up .right {
+  float: right;
+  width: 3rem;
+  height: 100%;
+  background-image: url(../image/mydope.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 36px;
+}
+#wrap #header .down {
+  height: 60px;
+  position: relative;
+  background-color: #fff;
+}
+#wrap #header .down ul {
+  position: absolute;
+  padding-top: 28px;
+  left: 0;
+  bottom: 0;
+}
+#wrap #header .down ul li {
+  float: left;
+  padding: 0 3px;
+  height: 30px;
+  padding-left: 18px;
+}
+#wrap #header .down ul li .new {
+  width: 75px;
+}
+#wrap #header .down ul li a {
+  width: 100%;
+  height: 100%;
+}
+#wrap #header .down ul li a.green {
+  color: #459d36;
+  border-bottom: 2px solid #459d36;
+}
+#wrap #content {
+  width: 16rem;
+  height: 80%;
+  background-color: pink;
+}
+#wrap #footer {
+  width: 16rem;
+  height: 8%;
+  background-color: #fff;
+}
